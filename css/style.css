@@ -865,15 +865,17 @@ h2 {
 }
 
 /* ================================================= */
-/* ---------------- Subscribe Style ---------------- */
+/* ---------------- Contact Me Style ---------------- */
 /* ================================================= */
-#subscribe {
+#contactme {
     position: relative;
     text-align: center;
-    padding: 45px 0 60px 0;
-    background-color: #7DC576;
-    background-image: linear-gradient(#3E6F39, #7DC576);
+    padding: 10px 0 10px 0;
 }
+
+/* ================================================= */
+/* ---------------- Subscribe Style ---------------- */
+/* ================================================= */
 
 #subscribe .section-header h2 {
     color: #ffffff;
