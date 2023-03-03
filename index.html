@@ -22,25 +22,13 @@
 		<link href="vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
         <!-- Main Stylesheet File -->
-        <link href="css/hover-style.css" rel="stylesheet">
+        <!--<link href="css/hover-style.css" rel="stylesheet">-->
         <link href="css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <!-- Header Section Start -->
-        <!--<div class="menu"> <span></span> </div>
-        <nav id="nav">
-            <ul class="main">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="overlay"></div>-->
+       
         
         <div class="header">
             <div class="container text-center">
@@ -57,37 +45,7 @@
                     <p class="tagline">
                         Josephine Wilson Photography
                     </p>
-                    <!--<a class="btn" data-toggle="popover" data-container="body" data-placement="top" data-html="true" id="download"><i class="fa fa-download"></i>Free Download</a>
-                    <div id="popover-content-download">
-                        <form>
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <div class="radio">
-                                        <label><input type="radio" name="reg"> 640×426 | JPG | 40KB</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="radio">
-                                        <label><input type="radio" name="reg"> 1280×853 | JPG | 132KB</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="radio">
-                                        <label><input type="radio" name="reg"> 1920×1280 | JPG | 279KB</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="radio">
-                                        <label><input type="radio" name="reg"> 5184×3456 | JPG | 1.4MB</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <button type="submit"><i class="fa fa-download"></i>Download</button>
-                                    <button type="submit"><i class="fa fa-eye"></i>Preview</button>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>-->
+   
                 </div>
             </div>
         </div>
@@ -348,203 +306,7 @@
         </div>
         <!-- Subscribe Section End -->
         
-        <!-- Booking Section Start 
-        <div id="booking">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Book My Schedule</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="booking-form">
-                            <div id="success"></div>
-                            <form name="sentMessage" id="bookingForm" novalidate="novalidate">
-                                <div class="form-row">
-                                    <div class="control-group col-md-6">
-                                        <label>First Name</label>
-                                        <input type="text" class="form-control" id="fname" placeholder="E.g. John" required="required" data-validation-required-message="Please enter first name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group col-md-6">
-                                        <label>Last Name</label>
-                                        <input type="text" class="form-control" id="lname" placeholder="E.g. Sina" required="required" data-validation-required-message="Please enter last name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="control-group col-md-6">
-                                        <label>Mobile</label>
-                                        <input type="text" class="form-control" id="mobile" placeholder="E.g. 1-887-877-54" required="required" data-validation-required-message="Please enter your mobile number" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group col-md-6">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="E.g. email@example.com" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="control-group col-md-6">
-                                        <div class="form-row">
-                                            <div class="control-group col-6">
-                                                <label>Booking From (Date)</label>
-                                                <input type="text" class="form-control datetimepicker-input" id="date-1" data-toggle="datetimepicker" data-target="#date-1" placeholder="E.g. MM/DD/YYYY" required="required" data-validation-required-message="Please enter date"/>
-                                                <p class="help-block text-danger"></p>
-                                            </div>
-                                            <div class="control-group col-6">
-                                                <label>Time</label>
-                                                <input type="text" class="form-control datetimepicker-input" id="time-1" data-toggle="datetimepicker" data-target="#time-1" placeholder="E.g. 5:00 PM" required="required" data-validation-required-message="Please enter time"/>
-                                                <p class="help-block text-danger"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group col-md-6">
-                                        <div class="form-row">
-                                            <div class="control-group col-6">
-                                                <label>Booking To (Date)</label>
-                                                <input type="text" class="form-control datetimepicker-input" id="date-2" data-toggle="datetimepicker" data-target="#date-2" placeholder="E.g. MM/DD/YYYY" required="required" data-validation-required-message="Please enter date"/>
-                                                <p class="help-block text-danger"></p>
-                                            </div>
-                                            <div class="control-group col-6">
-                                                <label>Time</label>
-                                                <input type="text" class="form-control datetimepicker-input" id="time-2" data-toggle="datetimepicker" data-target="#time-2" placeholder="E.g. 9:00 PM" required="required" data-validation-required-message="Please enter time"/>
-                                                <p class="help-block text-danger"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label>Special Request</label>
-                                    <input type="text" class="form-control" id="comment" placeholder="E.g. Any special request" required="required" data-validation-required-message="Please enter your any special request" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="button"><button type="submit" id="bookingButton">Book My Schedule</button></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Booking Section End -->
 
-        <!-- Call Section Start
-        <div id="call-us">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Click below to call me</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p>
-                            Monday-Friday: 7am to 12am<br>
-                            Saturday: 5pm to 12am<br>
-                            Sunday: 9am to 12am
-                        </p>
-                        <a href="tel:+123456789">+123456789</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Call Section End -->
-        
-        <!-- Blog Section Start
-        <div id="blog">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Latest Blog</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 single-blog">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="blog-img">
-                                    <div class="box7">
-                                        <img src="img/blog-1.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="blog-des">
-                                    <h4>Lorem ipsum dolor</h4>
-                                    <span><i class="fa fa-eye"></i>80 Views<i class="fa fa-comment-o"></i>25 Comments</span>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non ipsum feugiat, efficitur nibh nec, commodo tellus.
-                                    </p>
-                                    <a class="btn" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 single-blog">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="blog-img">
-                                    <div class="box7">
-                                        <img src="img/blog-2.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="blog-des">
-                                    <h4>Nam non ipsum</h4>
-                                    <span><i class="fa fa-eye"></i>80 Views<i class="fa fa-comment-o"></i>25 Comments</span>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non ipsum feugiat, efficitur nibh nec, commodo tellus.
-                                    </p>
-                                    <a class="btn" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 single-blog">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="blog-img">
-                                    <div class="box7">
-                                        <img src="img/blog-3.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="blog-des">
-                                    <h4>Fusce ut ornare</h4>
-                                    <span><i class="fa fa-eye"></i>80 Views<i class="fa fa-comment-o"></i>25 Comments</span>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non ipsum feugiat, efficitur nibh nec, commodo tellus.
-                                    </p>
-                                    <a class="btn" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 single-blog">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="blog-img">
-                                    <div class="box7">
-                                        <img src="img/blog-4.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="blog-des">
-                                    <h4>Vivamus bibendum</h4>
-                                    <span><i class="fa fa-eye"></i>80 Views<i class="fa fa-comment-o"></i>25 Comments</span>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non ipsum feugiat, efficitur nibh nec, commodo tellus.
-                                    </p>
-                                    <a class="btn" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Blog Section End -->
         
         <!-- Footer Section Start -->
         <div id="footer">
