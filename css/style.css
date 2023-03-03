@@ -548,14 +548,14 @@ h2 {
 
 #about .img-col {
     padding: 15px;
-    border: 20px dotted;
-    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+    /*border: 20px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;*/
 }
 
 #about .img-col .img {
     padding: 15px;
-    border: 10px dotted;
-    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+    /*border: 10px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;*/
 }
 
 #about .img-col,
